@@ -47,7 +47,7 @@ export default function FindAHomePage() {
     return result
   }, [searchQuery, selectedType, selectedBuilder, selectedBeds, sortBy])
 
-  const selectClass = "bg-surface-alt border border-border rounded-lg px-3 py-2.5 text-sm text-primary appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-secondary/30"
+  const selectClass = "bg-surface-alt border border-border rounded-lg pl-3 pr-8 py-2.5 text-sm text-primary appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-secondary/30 w-full lg:w-auto"
 
   return (
     <>
